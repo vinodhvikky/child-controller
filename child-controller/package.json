@@ -1,0 +1,14 @@
+{
+	"name": "child-process-controller",
+	"version": "1.0.0",
+	"description": "Main controller for package",
+	"scripts": {
+		"build:prod": "npm install; cd ..; tar -zcvf controller.tar.gz controller/"
+	},
+	"dependencies": {
+		"async": "2.1.4",
+		"aws-sdk": "^2.89.0",
+		"fs-extra": "2.0.0",
+		"pm2": "^2.4.6"
+	}
+}
